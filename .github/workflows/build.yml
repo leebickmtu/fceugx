@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         image: ["Wii", "GameCube"]
-    container: ghcr.io/extremscorner/libogc2:latest
+    container: ghcr.io/extremscorner/libogc2:20251123
 
     steps:
     - name: Checkout fceugx repo
