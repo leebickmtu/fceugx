@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         image: ["Wii", "GameCube"]
-    container: devkitpro/devkitppc:latest
+    container: devkitpro/devkitppc:20250727
 
     steps:
     - name: Install packages
